@@ -2,7 +2,7 @@
 //  myStack.swift
 //  This class is a blueprint for a stack
 //
-//  Created by Matthew Lourenco on 19/03/18.
+//  Created by Matthew Lourenco on 20/03/18.
 //  Copyright © 2018 MTHS. All rights reserved.
 //
 
@@ -15,7 +15,7 @@ class MyStack {
 		list.append(integer)
 	}
 
-	public func pop(integer: Int) -> Int {
+	public func pop() -> Int {
 		//pop the last object from the stack and return it
 		let value: Int = list[list.count - 1]
 		list.removeLast()
